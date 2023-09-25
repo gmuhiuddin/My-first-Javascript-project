@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Expence Calculator Application</h1>
+    <div class="container">
+    <div class="wordsDiv">
+            <div class="textDov">
+            <p>Income</p>
+            <p id="incomeZero">0</p>
+        </div>
+        <div class="textDov">
+            <p >Expence</p>
+            <p id="expenceZero">0</p>
+        </div>
+        <div class="textDov">
+            <p >Profit / Loss</p>
+            <p id="profitLossZero">0</p>
+        </div>
+    </div>
+        
+    </div>
+    <div class="inputDiv">
+        <input placeholder="Enter amount" type="number" id="enterAmount"/>
+        <button onclick="expenceCalulatorIncome()">Income</button>
+        <button onclick="expenceCalulatorExpence()">Expense</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
