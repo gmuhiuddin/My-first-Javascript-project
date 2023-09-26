@@ -4,7 +4,6 @@ var amount1 = 0;
 function expenceCalulatorIncome (){
     let enterAmount = document.getElementById("enterAmount").value
     let incomeZero = document.getElementById("incomeZero")
-    let expenceZero = document.getElementById("expenceZero")
     let profitLossZero = document.getElementById("profitLossZero")
     enterAmount = +enterAmount
 
@@ -17,7 +16,6 @@ function expenceCalulatorExpence (){
     
 
     let enterAmount = document.getElementById("enterAmount").value
-    let incomeZero = document.getElementById("incomeZero")
     let expenceZero = document.getElementById("expenceZero")
     let profitLossZero = document.getElementById("profitLossZero")
     enterAmount = +enterAmount
