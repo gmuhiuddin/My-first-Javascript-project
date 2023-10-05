@@ -9,7 +9,7 @@ function expenceCalulatorIncome (){
 
     amount += enterAmount
     incomeZero.innerText = amount
-    profitLossZero.innerText = amount
+    profitLossZero.innerText = amount - amount1
 
 }
 function expenceCalulatorExpence (){
